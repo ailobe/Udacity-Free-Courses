@@ -14,12 +14,12 @@ def draw_circle(some_turtle):
 def draw_circle_of_squares():
     # Creates the window
     window = turtle.Screen()
-    window.bgcolor("white")
+    window.bgcolor("black")
 
     # Create the turtle Arrow
     arrow = turtle.Turtle()
     arrow.shape("arrow")
-    arrow.color("black")
+    arrow.color("white")
     arrow.speed(0)
 
     # Draw a circle of squares
